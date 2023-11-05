@@ -7,7 +7,6 @@ from flask import jsonify
 import pandas as pd   
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-import MySQLdb
 app = Flask(__name__, static_folder='static')
 app.secret_key = 'mykey'
 
